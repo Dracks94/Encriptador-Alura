@@ -1,0 +1,172 @@
+body {
+    background: #E5E5E5;
+}
+
+#izquierda{
+    position: absolute;
+    left: 15%;
+    right: 5%;
+    top: 5%;
+    bottom: 5%;
+    width: 51%;
+}
+
+#superior{
+    height: 80%;
+}
+
+#inferior{
+    margin: 0px auto;
+    text-align: center;
+}
+
+#logo{
+    height: 48px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#entrada{
+    color: #0A3871;
+    background-color: #E5E5E5;
+    display: flex;
+    
+
+    position: absolute;
+    width: 80%;
+    height: 40%;
+    left: 10%;
+    top: 168px;
+
+    font: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    border: none;
+}
+
+::placeholder{
+    font: "Inter";
+    color: #0A3871;
+}
+
+.boton{
+    width: 35%;
+    padding: 24px;
+    border: solid 1.5px #0A3871;
+    border-radius: 24px;
+    margin: 8px;
+
+    font: "Inter";
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+#encriptar{
+    background-color: #0A3871;
+    transition: 500ms;
+    color: #FFFFFF;
+}
+
+#encriptar:hover{
+    background-color: #062853;
+    transition: 500ms;  
+}
+
+#desencriptar{
+    background-color: #D8DFE8;
+    transition: 500ms;
+    color: #0A3871;
+}
+
+#desencriptar:hover{
+    background-color: #b4bcc5;
+    transition: 500ms;
+}
+
+#derecha{
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    border-style: solid;
+    border-color: #FFFFFF;
+
+    position: absolute;
+    width: 25%;
+    height: 90%;
+    top: 5%;
+    bottom: 5%;
+    left: 71%;
+}
+
+#muñeco{
+    align-items: center;
+    width: 90%;
+    margin-top: 50%;
+}
+
+#pieMuñeco{
+    text-align: center;
+}
+
+h1{
+    font: "Inter";
+    font-size: 24px;
+}
+
+.claro{
+    font: "Inter";
+    font-size: 16px; 
+    color: #495057;
+}
+
+.resultado{
+    color: #0A3871;
+    display: flex;
+    text-align: inherit;
+    
+    font: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+#yo{
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    border-right: solid 2px #0A3871;
+    border-radius: 0px;
+    top: 0%;
+    left: 0%;
+    margin: 0%;
+}
+
+#foto{
+    width: 90%;
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.presentacion{
+    position: relative;
+    margin-left: 10px;
+    font: "Inter";
+    font-size: 20px;
+    font-weight: bolder;
+    width: 90%;
+}
+
+.redes{
+    width: 50%;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 5%;
+    background-color: #E5E5E5;
+}
